@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="#03A9F4"
+    >
+
+    <ImageView
+        android:id="@+id/iv_xm"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/splash" />
+    <TextView
+        android:id="@+id/tv_qwss"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:text="全网搜索"
+        android:background="@drawable/qwss_background"
+        android:textSize="22sp"/>
+
+</LinearLayout>

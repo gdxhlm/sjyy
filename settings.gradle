@@ -1,0 +1,2 @@
+include ':app', ':vitamio', ':vitamio-sample', ':mytest'
+rootProject.name='MobileMedia'

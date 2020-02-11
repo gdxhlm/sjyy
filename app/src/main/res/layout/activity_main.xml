@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <cn.gdxhlm.mobilemedia.view.TitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_bdsp"
+            android:drawableTop="@drawable/drawable_bdsp_selector"
+            android:text="本地视频"
+            style="@style/RB_ty"
+            />
+        <RadioButton
+            android:id="@+id/rb_bdyy"
+            android:drawableTop="@drawable/drawable_bdsp_selector"
+            android:text="本地音乐"
+            style="@style/RB_ty"
+            />
+        <RadioButton
+            android:id="@+id/rb_wlsp"
+            android:drawableTop="@drawable/drawable_bdsp_selector"
+            android:text="网络视频"
+            style="@style/RB_ty"
+            />
+        <RadioButton
+            android:id="@+id/rb_wlyy"
+            android:drawableTop="@drawable/drawable_bdsp_selector"
+            android:text="网络音乐"
+            style="@style/RB_ty"
+            />
+
+    </RadioGroup>
+
+
+</LinearLayout>
